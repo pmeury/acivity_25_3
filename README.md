@@ -66,7 +66,7 @@ The random forest model contains a set of hyperparameters that can be tuned:
 * `max_depth`: The maximum depth of the tree. 
 * `min_samples_split`: The minimum number of samples required to split an internal node.
 * `min_samples_leaf`: The minimum number of samples in newly created leaves.
-* `min_weight_fraction_lead`: The minimum weighted fraction of the input samples required to be at a leaf node.
+* `min_weight_fraction_leaf`: The minimum weighted fraction of the input samples required to be at a leaf node.
 * `max_features`: The number of features to consider when looking for the best split.
 * `max_leaf_nodes`: Grow trees with `max_leaf_nodes` in best-first fashion. 
 * `bootstrap`: Whether bootstrap samples are used when building trees.
